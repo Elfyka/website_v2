@@ -1,7 +1,7 @@
 <title>WEBSITE V.2.1</title>
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <base href="http://localhost/projects/website_v2/"/>
-<!--<link rel="shortcut icon" type="image/png" href="img/codeigniter_logo.png"/>-->
+<link rel="shortcut icon" type="image/png" href="img/picto_dore.png"/>
 
 <!--css-->
 <link rel="stylesheet" type="text/css" href="css/cssNav.css"/>
@@ -29,3 +29,6 @@
 <!--fontawsome-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
       integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<!--sweetalert 2-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.26.11/sweetalert2.all.min.js"></script>
