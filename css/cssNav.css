@@ -24,13 +24,15 @@ a {
   display: flex;
   width: 100%;
   min-height: 100vh;
+  background: #FDF9F3;
 }
 .s-layout__content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1;
-  margin-top: 4.5em;
+  margin-top: 5em;
+  background: #FDF9F3;
 }
 /* Sidebar */
 .s-sidebar__trigger {
@@ -118,7 +120,8 @@ a {
   transform: translate(-50%, -50%);
 }
 /* Mobile First */
-@media (min-width: 42em) {
+/* bootstrap MD col @media (min-width: 42em) {*/
+@media (min-width: 768px) {
   .s-layout__content {
     margin-left: 4em;
     margin-top: 1em;
@@ -138,7 +141,8 @@ a {
     width: 15em;
   }
 }
-@media (min-width: 68em) {
+/*bootstrap LG col @media (min-width: 68em) {*/
+@media (min-width: 992px) {
   .s-layout__content {
     margin-left: 15em;
     margin-top: 0;

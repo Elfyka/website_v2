@@ -27,11 +27,11 @@ class viewGeneral
         include "templates/default.php";
     }
 
-    public function displayChatbot()
+    /*public function displayChatbot()
     {
         $page = "chatBot.php";
         include "templates/default.php";
-    }
+    }*/
 
     public function displayContact()
     {

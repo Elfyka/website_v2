@@ -1,15 +1,29 @@
-.slider__li {
-  cursor: pointer;
-}
+@lightGold: rgba(250, 235, 215, 0.7);
+@lightGoldBack: #FDF9F3;
+@mediumGold: #E0C283;
+@darkGrey1: rgba(17, 17, 17, 0.9);
+@darkGrey2: rgba(17, 17, 17, 0.8);
 
-.slider__h1 {
+.portfolio__h1 {
   margin-bottom: 1.3em;
+  margin-top: 1em;
+  font-size: 1.8em;
 }
 
-.slider__p {
-  float: right;
+/* bootstrap MD col */
+@media (min-width: 768px) {
+
+  .portfolio__h1 {
+    font-size: 2.2em;
+  }
+
 }
 
-.slider__g {
-  float: left;
+/*bootstrap LG col */
+@media (min-width: 992px) {
+
+  .portfolio__h1 {
+    font-size: 2.4em;
+  }
+
 }

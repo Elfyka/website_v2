@@ -33,10 +33,10 @@ class ctrlGeneral
         $this->view->displayPortfolio();
     }
 
-    public function getChatbot()
+    /*public function getChatbot()
     {
         $this->view->displayChatbot();
-    }
+    }*/
 
     public function getContact()
     {

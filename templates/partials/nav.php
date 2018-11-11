@@ -24,11 +24,11 @@
                     <i class="fas fa-folder-open"></i><em>PORTFOLIO</em>
                 </a>
             </li>
-            <li>
+            <!--<li>
                 <a class="s-sidebar__nav-link" href="ctrlGeneral/getChatbot">
                     <i class="fas fa-robot"></i><em>CHATBOT</em>
                 </a>
-            </li>
+            </li>-->
             <li>
                 <a class="s-sidebar__nav-link" href="ctrlGeneral/getContact">
                     <i class="fas fa-comment"></i><em>CONTACT</em>

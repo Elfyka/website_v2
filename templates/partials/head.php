@@ -1,14 +1,16 @@
 <title>WEBSITE V.2.1</title>
+
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <base href="http://localhost/projects/website_v2/"/>
-<link rel="shortcut icon" type="image/png" href="img/picto_dore.png"/>
+
+<!--favicon-->
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 
 <!--css-->
 <link rel="stylesheet" type="text/css" href="css/cssNav.css"/>
 <link rel="stylesheet" type="text/css" href="css/cssHome.css"/>
 <link rel="stylesheet" type="text/css" href="css/cssAbout.css"/>
 <link rel="stylesheet" type="text/css" href="css/cssPortfolio.css"/>
-<link rel="stylesheet" type="text/css" href="css/cssChatbot.css"/>
 <link rel="stylesheet" type="text/css" href="css/cssContact.css"/>
 
 <!--jquery-->

@@ -1,4 +1,5 @@
 @lightGold: rgba(250, 235, 215, 0.7);
+@lightGoldBack: #FDF9F3;
 @mediumGold: #E0C283;
 @darkGrey1: rgba(17, 17, 17, 0.9);
 @darkGrey2: rgba(17, 17, 17, 0.8);
@@ -32,6 +33,7 @@ a {
   display: flex;
   width: 100%;
   min-height: 100vh;
+  background: @lightGoldBack;
 }
 
 .s-layout__content {
@@ -39,7 +41,8 @@ a {
   justify-content: center;
   align-items: center;
   flex: 1;
-  margin-top: 4.5em;
+  margin-top: 5em;
+  background: @lightGoldBack;
 }
 
 /* Sidebar */
@@ -139,7 +142,8 @@ a {
 }
 
 /* Mobile First */
-@media (min-width: 42em) {
+/* bootstrap MD col @media (min-width: 42em) {*/
+@media (min-width: 768px) {
   .s-layout__content {
     margin-left: 4em;
     margin-top: 1em;
@@ -163,7 +167,8 @@ a {
   }
 }
 
-@media (min-width: 68em) {
+/*bootstrap LG col @media (min-width: 68em) {*/
+@media (min-width: 992px) {
   .s-layout__content {
     margin-left: 15em;
     margin-top: 0;
