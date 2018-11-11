@@ -3,6 +3,9 @@
   margin-top: 1em;
   font-size: 1.8em;
 }
+.portfolio__cardG {
+  margin-bottom: 2em;
+}
 /* bootstrap MD col */
 @media (min-width: 768px) {
   .portfolio__h1 {

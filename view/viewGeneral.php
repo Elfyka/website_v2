@@ -33,7 +33,7 @@ class viewGeneral
         include "templates/default.php";
     }*/
 
-    public function displayContact()
+    public function displayContact($object)
     {
         $page = "contact.php";
         include "templates/default.php";
